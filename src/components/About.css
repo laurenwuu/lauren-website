@@ -1,0 +1,15 @@
+h2 {
+    font-size: 40px;
+    color: #28567f;
+  }
+
+  .coloured {
+    font-size: 40px;
+    color: #ed4583;
+  }
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
