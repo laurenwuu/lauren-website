@@ -12,8 +12,8 @@ body {
 
 header {
     scroll-behavior: smooth;
-    background-color: white;
-    color: black;
+    background-color:#326dac;
+    color: white;
     /*padding: 10px 20px;
     text-align: right;*/
 }
@@ -28,7 +28,7 @@ header {
 
   nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     height: 17vh; /*vh - view height, percentage of the screen itll take up*/
@@ -42,16 +42,16 @@ header {
   }
 
   .header-links a {
-    color: black;
+    color: white;
     text-decoration: none;
     text-decoration-color: white;
   }
 
   a:hover { /*change the colour when hover over*/
-    color: grey;
+    color: #fe7088;
     text-decoration: underline;
     text-underline-offset: 1rem; /*space between text and underline*/
-    text-decoration-color: rgb(181, 181,181);
+    text-decoration-color: #fe7088;
   }
 
   .logo {

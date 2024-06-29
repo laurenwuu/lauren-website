@@ -1,21 +1,21 @@
 import './App.css';
 import React from 'react';
 import Header from './components/Header';
+import Profile from './components/Profile';
 import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import Education from './components/Education';
-import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Profile />
       <About />
-      <Skills />
       <Experience />
       <Projects />
-      <Education />
+      <Contact />
       </div>
   );
 }
