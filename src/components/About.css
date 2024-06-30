@@ -18,6 +18,16 @@
 p {
     color: white;
 }
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bold-keyword {
+    font-weight: bold;
+    color: #fe7088; /* Example color */
+}
     
 .icon {
     cursor: pointer;
@@ -54,6 +64,20 @@ position: absolute;
 right: -5rem;
 bottom: 2.5rem;
 }
+
+ul {
+    columns: 2 auto;
+    column-gap: 6em; /* Adjust the gap between columns */
+    padding-left: 0; /* Removxe default padding */
+    list-style-type: circle;
+    text-align: left;
+    font-size: 1em;
+}
+
+li {
+    margin-bottom: 0.5em; /* Adjust spacing between list items */
+}
+
 /*
 .details-container {
 padding: 1.5rem;

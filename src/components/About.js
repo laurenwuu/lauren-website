@@ -23,17 +23,24 @@ const About = () => {
                 </div>
                 <div className="about-details-container">
                     <div className="text-container">
-                        <p>
-                        Hi, I’m Lauren—a software developer who loves crafting applications in my spare time. 
-                        I hold a Bachelor’s degree in Advanced Mathematics and Computer Science from the University of New South Wales. 
-                        Outside of work, I enjoy brunch, reading, and playing the piano. My happiest moments come from creating and learning, 
-                        which has sparked my recent but keen interest in frontend development!
-                        </p>
+                    <p>
+                        Hi, I’m Lauren—a <span className="bold-keyword">software developer</span> who loves crafting applications in my spare time. 
+                        I hold a Bachelor’s degree in <span className="bold-keyword">Advanced Mathematics</span> and <span className="bold-keyword">Computer Science</span> from the University of New South Wales. 
+                        Outside of work, I enjoy brunch, reading, and playing the piano. My happiest moments come from <span className="bold-keyword">creating</span> and <span className="bold-keyword">learning</span>, 
+                        which has sparked my recent but keen interest in <span className="bold-keyword">frontend development</span>!
+                    </p>
                     </div>
                     <div className="about-containers">
                         <div className="details-container">
-                            <h3>Skills</h3>
-                            <p>2 years <br/> Software Development</p>
+                            <h3>Skills & Technologies</h3>
+                            <ul>
+                                <li>Java</li>
+                                <li>React.js</li>
+                                <li>HTML and CSS</li>
+                                <li>JavaScript</li>
+                                <li>SQL</li>
+                                <li>Python</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

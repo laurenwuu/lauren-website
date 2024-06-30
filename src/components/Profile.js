@@ -36,20 +36,6 @@ const About = () => {
 
     };
 
-    const [showLine1, setShowLine1] = useState(false);
-    const [showLine2, setShowLine2] = useState(false);
-
-    useEffect(() => {
-        // Simulate typewriter effect
-        const delay1 = setTimeout(() => setShowLine1(true), 500); // Show line 1 after 500ms
-        const delay2 = setTimeout(() => setShowLine2(true), 1500); // Show line 2 after 1500ms
-
-        // Clean up timeouts on component unmount or state change
-        return () => {
-            clearTimeout(delay1);
-            clearTimeout(delay2);
-        };
-    }, []); // Run effect only once on component mount
 
     return (
         <section id="profile">
